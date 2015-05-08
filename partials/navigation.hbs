@@ -1,7 +1,7 @@
     <div class="navbar navbar-default navbar-inverse navbar-creepypasta navbar-fixed-top">
       <div class="container-fluid" id="navfluid">
         <div class="navbar-header">
-          <ul class="nav navbar-nav navbar-left">
+          <ul class="nav navbar-nav navbar-left hidden-xs">
             <li class="dropdown">
               <a href="" class="dropdown-toggle menu-drop" data-toggle="dropdown" role="button" aria-expanded="false"><i class="mdi mdi-navigation-menu"></i></a>
               <ul class="dropdown-menu" role="menu">
@@ -15,12 +15,27 @@
               </ul>
             </li>
           </ul>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigationbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
           <span class="navbar-brand" href="javascript:void(0)">{{@blog.title}}</span>
         </div>
-        <div class="navbar-collapse collapse navbar-inverse-collapse" id="navigationbar">
-          <div class="nav navbar-nav navbar-right">
-            <!-- disable search fn for now -->
-            <!-- <i class="mdi mdi-action-search"></i></a> -->
+        <div class="navbar-collapse collapse navbar-inverse-collapse hidden-sm hidden-md hidden-lg" id="navigationbar">
+          <div class="nav navbar-nav navbar-right hidden-sm hidden-md hidden-lg">
+            <ul class="nav navbar-nav navbar-left hidden-sm hidden-md hidden-lg">
+              <li><a href="/"><i class="mdi mdi-action-home"></i> Home</a></li>
+              <li><a href="/changelog/"><i class="mdi mdi-navigation-refresh"></i> Changelog</a></li>
+              <li><a href="/team/"><i class="mdi mdi-action-account-circle"></i> The Team</a></li>
+              <li><a href="/support/"><i class="mdi mdi-action-question-answer"></i> Support</a></li>
+              <li><a href="/about/"><i class="mdi mdi-action-extension"></i> About</a></li>
+              <li><a href="https://github.com/SlimRoms/" target="_blank">Source <i class="mdi-action-open-in-new"></i></a></li>
+              <li><a href="https://gerrit.slimroms.net/" target="_blank">Gerrit <i class="mdi-action-open-in-new"></i></a></li>
+            </ul>
           </div>
         </div>
       </div> <!-- container-fluid -->
