@@ -86,6 +86,10 @@ body .well.well-lg, .container .well.well-lg, .container-fluid .well.well-lg {
 	margin: 2em 16px 16px;
 }
 
+body .well.well-lg.card-post-content {
+	margin-left: 0px;
+}
+
 .post-meta {
 	margin: 0;
 	padding-top: 0;
@@ -270,3 +274,76 @@ body .card-comments {
 .user-card i {
 	display: inline-block;
 }
+
+a, a:hover, a:focus {
+	color: #777;
+}
+
+.pagination .page-number {
+	display: none;
+}
+
+.pagination .older-posts {
+	width: 100%;
+	display: block;
+	float: right;
+	text-align: right;
+	font-size: 1.3em;
+	font-weight: 400;
+}
+
+.pagination .newer-posts {
+	width: 100%;
+	display: block;
+	float: left;
+	text-align: left;
+	font-size: 1.3em;
+	font-weight: 400;
+}
+
+.pagination {
+	width: 100%;
+}
+
+/* SCROLLER STYLING FOR WEBKIT */
+
+::-webkit-scrollbar
+{
+	width: 5px;
+	height: 5px;
+}
+::-webkit-scrollbar-button
+{
+	width: 0px;
+	height: 0px;
+}
+::-webkit-scrollbar-thumb
+{
+	background: #0781aa;
+	border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover
+{
+	background: #0781aa;
+}
+::-webkit-scrollbar-thumb:active
+{
+background: #0781aa;
+}
+::-webkit-scrollbar-track
+{
+background: #333333;
+}
+::-webkit-scrollbar-track:hover
+{
+background: #333333;
+}
+::-webkit-scrollbar-track:active
+{
+background: #333333;
+}
+::-webkit-scrollbar-corner
+{
+background: transparent;
+}
+
