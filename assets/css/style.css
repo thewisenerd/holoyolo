@@ -243,10 +243,12 @@ body .sidebar .card-github #gh-repos li a:focus {
 
 body .card-socio {
 	margin: 2em 16px 16px;
+	margin-left: 0px;
 }
 
 body .card-comments {
 	margin: 2em 16px 16px;
+	margin-left: 0px;
 }
 
 .content, .sidebar {
