@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+  <title>{{meta_title}}</title>
+  <meta name="description" content="{{meta_description}}" />
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+
+  <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/css/roboto.min.css"    rel="stylesheet">
+  <link href="/assets/css/material.min.css"  rel="stylesheet">
+  <link href="/assets/css/ripples.min.css"   rel="stylesheet">
+
+  <link href="/assets/css/font-awesome.min.css"   rel="stylesheet">
+
+  <link href='//fonts.googleapis.com/css?family=RobotoDraft:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en' rel='stylesheet' type='text/css'>
+  <link href="/assets/css/style.css"         rel="stylesheet">
+
+  {{ghost_head}}
+</head>
+<body class="{{body_class}}">
+  {{navigation}}
+
+  {{{body}}}
+
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/bootstrap.min.js"></script>
+
+  <script src="/assets/js/ripples.min.js"></script>
+  <script src="/assets/js/material.min.js"></script>
+
+  <script src="/assets/js/script.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $.material.init();
+    });
+  </script>
+
+  {{!ghost_foot}}
+</body>
+</html>
+

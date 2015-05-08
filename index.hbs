@@ -1,0 +1,25 @@
+{{!< default}}
+
+<main class="content col-md-9 col-sm-12" role="main">
+
+  {{#foreach posts}}
+
+  <div class="well well-lg card card-post">
+    <header>
+      <h2 class="post-title">{{{title}}}</h2>
+      <div class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="dddd, MMMM DD, YYYY"}}</time></div>
+    </header>
+    <section class="post-content">
+      <p>{{content}}</p>
+      <a href="{{url}}" class="btn btn-primary btn-dark btn-fab btn-raised mdi-hardware-keyboard-arrow-right"></a>
+    </section>
+  </div>
+
+  {{/foreach}}
+
+  {{!disable pagination till i figure out stuff}}
+  {{!pagination}}
+
+</main>
+
+{{> sidebar}}

@@ -1,0 +1,272 @@
+body
+{
+	width: 100%;
+	height: 100%;
+	background-color: #e5e5e5;
+	overflow-x: hidden;
+	font-family: RobotoDraft,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.menu-drop {
+	border-radius: 50%;
+}
+
+.search-bar {
+	display: inline-block;
+}
+
+.navbar-creepypasta {
+	background-image: url('../images/toolbar.png');
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	#height: 128px;
+	box-shadow: 0px 5px 6px -3px rgba(0, 0, 0, 0.4);
+}
+
+.navbar-creepypasta .mdi {
+	color: #fff;
+}
+
+.navbar-creepypasta ul.dropdown-menu {
+	background-color: #000;
+	color: #fff;
+	border-radius: 0px;
+}
+
+.navbar-creepypasta ul.dropdown-menu>li {
+	display: inline-block;
+	color: #eee;
+	width: 300px;
+}
+
+.navbar-creepypasta ul.dropdown-menu>li>a {
+	color: #eee;
+	height: 3em;
+	line-height: 3em;
+	display: block;
+}
+
+.navbar-creepypasta ul.dropdown-menu>li:hover {
+	background-color: #111;
+}
+
+.navbar-inverse.navbar .dropdown-menu li>a:hover, .navbar-inverse.navbar .dropdown-menu li>a:focus {
+	color: #aaa;
+}
+
+.navbar-creepypasta .navbar-brand {
+	font-size: 1.7em;
+	color: #fff;
+	font-family: RobotoDraft,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.navbar-creepypasta .navbar-brand:hover {
+	color: #fff;
+}
+
+.navbar-creepypasta ul.dropdown-menu>li .mdi-action-open-in-new {
+	float: right;
+	opacity: 0;
+	transition: opacity ease-out 0.3s;
+}
+
+.navbar-creepypasta ul.dropdown-menu>li:hover .mdi-action-open-in-new {
+	opacity: 1;
+	transition: opacity ease-in 0.4s;
+}
+
+.content {
+	padding: 2em;
+}
+
+
+body .well.well-lg, .container .well.well-lg, .container-fluid .well.well-lg {
+	padding: 50px;
+	margin: 2em 16px 16px;
+}
+
+.post-meta {
+	margin: 0;
+	padding-top: 0;
+	word-wrap: break-word;
+	font-size: 1.2em;
+	color: #777777;
+	font-weight: 400;
+}
+
+body .well .post-content p {
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+
+	font-size: 1em;
+	color: #555555;
+	font-weight: 400;
+}
+
+.post-content hr {
+	#border-top: 2px solid #eee;
+	border-top: 1px solid rgba(160, 160, 160, 0.4);
+}
+
+h2 {
+	display: block;
+	font-size: 2.3em;
+	-webkit-margin-before: 0.83em;
+	-webkit-margin-after: 0.83em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+}
+
+h2.post-title {
+	margin: 0;
+	padding-bottom: 0;
+	font-size: 3.3em;
+	color: #555555;
+	font-weight: 300;
+}
+
+.page-team h2.post-title {
+	padding-bottom: 0.2em;
+}
+
+body .well .post-content p {
+	#float: left;
+}
+
+body .well .post-content .btn-dark {
+	float: right;
+	#display: none;
+	background-color: #555;
+	color: #ddd;
+}
+
+body .well .post-content .btn-dark:hover {
+	background-color: #000;
+	color: #fff;
+	transition: all ease-in 0.5s;
+	-webkit-transition: all ease-in 0.5s;
+}
+
+body .sidebar .card-top {
+	margin-top: 2em;
+}
+
+body .sidebar .mdi-action-gplus {
+	background-color: #dd4b39 !important;
+	background-image: url('/assets/images/icons/gplus.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 40px 40px;
+	float: left;
+}
+
+body .sidebar .mdi-action-twitter {
+	background-color: #55acee !important;
+	background-image: url('/assets/images/icons/twitter.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 40px 40px;
+}
+
+body .sidebar .mdi-action-facebook {
+	background-color: #3b5998 !important;
+	background-image: url('/assets/images/icons/facebook.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 40px 40px;
+	float: right;
+}
+
+body .sidebar .card-github .gh-username {
+	color: #4bb6f5
+}
+
+body .sidebar .card-github #gh-repos {
+	list-style: none;
+	padding-left: 0.5em;
+}
+
+body .sidebar .card-github #gh-repos li {
+	padding: 10px 0 10px 0px;
+	position: relative;
+	line-height: 26px;
+	margin: 0px;
+}
+
+body .sidebar .card-github #gh-repos li:before {
+	border-left-color: #a9d300;
+	content: "\0BB \020";
+}
+
+body .sidebar .card-github #gh-repos li {
+	padding: 10px 0 10px 0px;
+	position: relative;
+	line-height: 26px;
+	margin: 0px;
+}
+
+body .sidebar .card-github #gh-repos li a {
+	text-decoration: none;
+	color: #000;
+}
+
+body .sidebar .card-github #gh-repos li a:hover {
+	text-decoration: none;
+	color: #707070;
+}
+
+body .sidebar .card-github #gh-repos li a:focus {
+	text-decoration: none;
+	color: #707070;
+}
+
+.fa {
+	color: black;
+
+	transition: all ease-in 0.4s;
+}
+
+.fa:hover {
+	color: #707070;
+
+	transition: all ease-in 0.4s;
+}
+
+body .card-socio {
+	margin: 2em 16px 16px;
+}
+
+body .card-comments {
+	margin: 2em 16px 16px;
+}
+
+.content, .sidebar {
+	padding-top: 3em;
+}
+
+.user-card {
+	min-height: 268px;
+}
+
+.user-card .userimg img {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+
+.user-card .username {
+	align: center;
+	text-align: center;
+	margin: 0 auto;
+	font-weight: 400;
+	font-size: 1.5em;
+}
+
+.user-card i {
+	display: inline-block;
+}

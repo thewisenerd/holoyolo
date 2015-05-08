@@ -1,0 +1,47 @@
+{{!< default}}
+
+<main class="content col-md-9 col-sm-12" role="main">
+
+  {{#post}}
+
+  <div class="well well-lg card card-post-content">
+    <header>
+      <h2 class="post-title">{{{title}}}</h2>
+      <div class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="dddd, MMMM DD, YYYY"}}</time></div>
+    </header>
+    <section class="post-content">
+      <p>{{content}}</p>
+    </section>
+  </div>
+
+  <div class="well card card-socio">
+    <section class="share">
+      <p class="info prompt">Share this post
+      <a href="http://twitter.com/share?text={{title}}&url={{url absolute="true"}}"
+        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+        <i class="fa fa-2x fa-fw fa-twitter"></i> <span class="hidden">Twitter</span>
+      </a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
+        onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+        <i class="fa fa-2x fa-fw fa-facebook-square"></i> <span class="hidden">Facebook</span>
+      </a>
+      <a href="https://plus.google.com/share?url={{url absolute="true"}}"
+        onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+        <i class="fa fa-2x fa-fw fa-google-plus-square"></i> <span class="hidden">Google+</span>
+      </a>
+      </p>
+    </section>
+  </div>
+
+  <div class="well card card-comments">
+    {{> comments-disqus}}
+  </div>
+
+  {{/post}}
+
+  {{!disable pagination till i figure out stuff}}
+  {{!pagination}}
+
+</main>
+
+{{> sidebar}}
