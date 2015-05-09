@@ -156,6 +156,15 @@ body .well .post-content .btn-dark:hover {
 	-webkit-transition: all ease-in 0.5s;
 }
 
+body .well .post-content .postscript {
+	border-top: 1px solid rgba(160, 160, 160, 0.4);
+	color: #aaa;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 1.2em;
+	text-align: center;
+}
+
 body .sidebar .card-top {
 	margin-top: 2em;
 }
