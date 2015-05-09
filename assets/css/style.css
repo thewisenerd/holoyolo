@@ -195,6 +195,11 @@ body .sidebar .mdi-action-facebook {
 	float: right;
 }
 
+.info-txt {
+	padding-top: 1em;
+	display: none;
+}
+
 body .sidebar .card-github .gh-username {
 	color: #4bb6f5
 }
