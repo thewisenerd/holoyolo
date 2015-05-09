@@ -49,6 +49,11 @@ body
 		overflow-x: hidden;
 	}
 
+	.post-content img {
+		width: 100%;
+		align: center;
+	}
+
 }
 
 
