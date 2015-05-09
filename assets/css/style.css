@@ -37,8 +37,25 @@ body
 .navbar-creepypasta ul.dropdown-menu>li {
 	display: inline-block;
 	color: #eee;
-	width: 300px;
 	height: 3em;
+}
+
+@media (max-width:768px) {
+	.navbar-creepypasta ul.dropdown-menu>li {
+		min-width: 250px;
+	}
+
+	.nav.navbar-nav.navbar-right.hidden-sm.hidden-md.hidden-lg {
+		overflow-x: hidden;
+	}
+
+}
+
+
+@media (min-width:768px) {
+	.navbar-creepypasta ul.dropdown-menu>li {
+		min-width: 300px;
+	}
 }
 
 .navbar-creepypasta ul.dropdown-menu>li>a {
