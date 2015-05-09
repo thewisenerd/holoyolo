@@ -68,12 +68,18 @@ body
 .navbar-creepypasta ul.dropdown-menu>li .mdi-action-open-in-new {
 	float: right;
 	opacity: 0;
-	transition: opacity ease-out 0.3s;
+	-webkit-transition: opacity ease-out 0.3s;
+		 -moz-transition: opacity ease-out 0.3s;
+			 -o-transition: opacity ease-out 0.3s;
+					transition: opacity ease-out 0.3s;
 }
 
 .navbar-creepypasta ul.dropdown-menu>li:hover .mdi-action-open-in-new {
 	opacity: 1;
-	transition: opacity ease-in 0.4s;
+	-webkit-transition: opacity ease-in 0.4s;
+		 -moz-transition: opacity ease-in 0.4s;
+			 -o-transition: opacity ease-in 0.4s;
+					transition: opacity ease-in 0.4s;
 }
 
 .content {
@@ -152,8 +158,12 @@ body .well .post-content .btn-dark {
 body .well .post-content .btn-dark:hover {
 	background-color: #000;
 	color: #fff;
-	transition: all ease-in 0.5s;
+
 	-webkit-transition: all ease-in 0.5s;
+		 -moz-transition: all ease-in 0.5s;
+			 -o-transition: all ease-in 0.5s;
+					transition: all ease-in 0.5s;
+
 }
 
 body .well .post-content .postscript {
@@ -246,13 +256,20 @@ body .sidebar .card-github #gh-repos li a:focus {
 .fa {
 	color: black;
 
-	transition: all ease-in 0.4s;
+	-webkit-transition: all ease-in 0.4s;
+		 -moz-transition: all ease-in 0.4s;
+			 -o-transition: all ease-in 0.4s;
+					transition: all ease-in 0.4s;
+
 }
 
 .fa:hover {
 	color: #707070;
 
-	transition: all ease-in 0.4s;
+	-webkit-transition: all ease-in 0.4s;
+		 -moz-transition: all ease-in 0.4s;
+			 -o-transition: all ease-in 0.4s;
+					transition: all ease-in 0.4s;
 }
 
 body .card-socio {
