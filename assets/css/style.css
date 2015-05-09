@@ -54,6 +54,15 @@ body
 		align: center;
 	}
 
+	h2.post-title {
+		font-size: 1.7em !important;
+	}
+
+	h2.post-title.post-title-header {
+		font-size: 2.3em !important;
+	}
+
+
 }
 
 
